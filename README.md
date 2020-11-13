@@ -16,6 +16,7 @@ and the visualization script "lidar.py" is heavily inspired by:<br>
 https://memotut.com/try-using-cheap-lidar-(camsense-x1)-819ac/<br>
 
 here are some images:<br>
+<img src="/img/plot.jpg">
 <img src="/img/lidar1.jpg">
 <img src="/img/lidar2.jpg">
 <img src="/img/lidar3.jpg">
