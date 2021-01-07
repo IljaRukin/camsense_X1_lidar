@@ -4,9 +4,9 @@ chinese lidar "camsense X1" outputs data over serial (GND, VCC +5V, TX).<br>
 this python script reads the data and visualizes it using matplotlib.<br>
 There are two infinite loops, one imports the data and the other plots it.<br>
 to run the script "lidar.py" type:<br>
-
+```
 python lidar.py COM12
-
+```
 with the according com port name<br>
 the included "lidar.bat" file just runs this script with windows cmd for COM12.<br>
 some info and comments ar included in the python notebook "lidar.ipynb".<br>
