@@ -9,6 +9,13 @@ python lidar.py COM12
 ```
 with the according com port name<br>
 the included "lidar.bat" file just runs this script with windows cmd for COM12.<br>
+to find open serial ports type following into python console:
+```
+import serial.tools.list_ports as port_list
+ports = list(port_list.comports())
+for p in ports:
+	print(p)
+```
 some info and comments ar included in the python notebook "lidar.ipynb".<br>
 The serial connection and data packet format is described at:<br>
 https://github.com/Vidicon/camsense-X1<br>
